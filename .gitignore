@@ -1,1 +1,39 @@
-/breast_xception (1).h5
+# Model files (large binary files)
+*.h5
+*.keras
+*.pkl
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Vector DB
+chroma_langchain_db/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temp files
+*.tmp
+*.log
